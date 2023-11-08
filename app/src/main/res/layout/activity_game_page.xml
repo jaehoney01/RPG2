@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container2"
+    tools:context=".view.GamePageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="50sp"
+            android:layout_gravity="center|end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="70dp"
+            android:backgroundTint="#0061A8"
+            android:fontFamily="@font/jamsil"
+            android:text="뒤로가기"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rullet_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roulettee"
+                android:fontFamily="@font/jamsil2"
+                android:scaleType="fitXY"
+                android:textColor="#000000"
+                android:textSize="50sp"
+                android:contentDescription="로딩 중"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/line"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/son_byung_ho_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/handd"
+                android:contentDescription="로딩 중"
+                android:fontFamily="@font/jamsil2"
+                android:scaleType="fitXY"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/roll_bomb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bomm"
+                android:fontFamily="@font/jamsil2"
+                android:scaleType="fitXY"
+                android:textColor="#000000"
+                android:textSize="50sp"
+                android:contentDescription="로딩 중"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

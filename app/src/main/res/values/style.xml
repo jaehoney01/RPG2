@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item> <!-- 상태 바 제거 설정 -->
+        <item name="android:windowBackground">#FFFFFF</item>
+
+    </style>
+
+</resources>
